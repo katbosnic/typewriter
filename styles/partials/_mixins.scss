@@ -1,3 +1,11 @@
+$blue: #3f5468;
+$lightgreen: #e9fadd;
+$brown: #42291c;
+$cream: #f9f6f2;
+$lightbrown: #a0855b;
+$black: #262626;
+
+
 @mixin flex($direction, $wrap, $justify, $align) {
 	display: flex;
 	flex-direction: $direction;

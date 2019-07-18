@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 125%;
+}
+
+.old-school {
+    .keyboard {
+        background: $brown;
+    }
+    background: $lightbrown;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.6rem;
+    .key {
+        color: $lightgreen;
+    }
+}

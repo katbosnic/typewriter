@@ -1,0 +1,48 @@
+.typing {
+    box-shadow: 0 -5px 3px $black;
+    transform: scale(0.95);
+    transform: translateY(3px);
+}
+
+
+.keyboard {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px;
+    border-radius: 25px;
+    .first-row,
+    .second-row,
+    .third-row,
+    .fourth-row,
+    .fifth-row {
+        @include flex(row, nowrap, space-around, center);
+    }
+    
+    .key {
+        padding: 10px 20px;
+        background: $blue;
+        border: 5px solid $lightbrown;
+        border-radius: 50%;
+        margin: 5px;
+        transition: all ease 0.2s;
+    }
+
+    .double-key {
+        font-size: 1rem;
+        padding: 10px 25px;
+        kbd {
+            display: block;
+        }
+    }
+
+    .wide {
+        border-radius: 50px;
+    }
+
+    .space-bar {
+        width: 90%;
+        height: 50px;
+        margin-top: 10px;
+    }
+}

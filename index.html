@@ -7,86 +7,169 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
         integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='styles/style.css' />
-    <link rel='script' href='script.js'>
 </head>
 
-<body>
-    <div class="first-row">
-        <div data-key="49" class="key">
-            <kbd>1</kbd>
+<body class="old-school">
+    <section>
+        <div class="page">
         </div>
-        <div data-key="50" class="key">
-            <kbd>2</kbd>
-        </div>
-        <div data-key="51" class="key">
-            <kbd>3</kbd>
-        </div>
-        <div data-key="52" class="key">
-            <kbd>4</kbd>
-        </div>
-        <div data-key="53" class="key">
-            <kbd>5</kbd>
-        </div>
-        <div data-key="54" class="key">
-            <kbd>6</kbd>
-        </div>
-        <div data-key="55" class="key">
-            <kbd>7</kbd>
-        </div>
-        <div data-key="56" class="key">
-            <kbd>8</kbd>
-        </div>
-        <div data-key="57" class="key">
-            <kbd>9</kbd>
-        </div>
-        <div data-key="48" class="key">
-            <kbd>0</kbd>
-        </div>
-        <div data-key="48" class="key">
-            <kbd>0</kbd>
-        </div>
-    </div>
-    <div class="second-row">
-        <div data-key="81" class="key">
-            <kbd>Q</kbd>
-        </div>
-        <div data-key="87" class="key">
-            <kbd>W</kbd>
-        </div>
-        <div data-key="69" class="key">
-            <kbd>E</kbd>
-        </div>
-        <div data-key="82" class="key">
-            <kbd>R</kbd>
-        </div>
-        <div data-key="84" class="key">
-            <kbd>T</kbd>
-        </div>
-        <div data-key="89" class="key">
-            <kbd>Y</kbd>
-        </div>
-        <div data-key="85" class="key">
-            <kbd>U</kbd>
-        </div>
-        <div data-key="73" class="key">
-            <kbd>I</kbd>
-        </div>
-        <div data-key="79" class="key">
-            <kbd>O</kbd>
-        </div>
-        <div data-key="80" class="key">
-            <kbd>P</kbd>
-        </div>
-        <div class="double-key">
-            <div data-key="1659">
-                <kbd>:</kbd>
+    </section>
+
+    <section class="board">
+        <div class="keyboard">
+            <div class="first-row">
+                <div data-key="49" id="49" class="single-key key">
+                    <kbd>1</kbd>
+                </div>
+                <div data-key="50" id="50" class="single-key key">
+                    <kbd>2</kbd>
+                </div>
+                <div data-key="51" id="51" class="single-key key">
+                    <kbd>3</kbd>
+                </div>
+                <div data-key="52" id="52" class="single-key key">
+                    <kbd>4</kbd>
+                </div>
+                <div data-key="53" id="53" class="single-key key">
+                    <kbd>5</kbd>
+                </div>
+                <div data-key="54" id="54" class="single-key key">
+                    <kbd>6</kbd>
+                </div>
+                <div data-key="55" class="single-key key">
+                    <kbd>7</kbd>
+                </div>
+                <div data-key="56" class="single-key key">
+                    <kbd>8</kbd>
+                </div>
+                <div data-key="57" class="single-key key">
+                    <kbd>9</kbd>
+                </div>
+                <div data-key="48" class="single-key key">
+                    <kbd>0</kbd>
+                </div>
+                <div data-key="8" class="wide single-key key">
+                    <kbd>delete</kbd>
+                </div>
             </div>
-            <div data-key="59">
-                <kbd>;</kbd>
+            <div class="second-row">
+                <div data-key="81" class="single-key key">
+                    <kbd>Q</kbd>
+                </div>
+                <div data-key="87" class="single-key key">
+                    <kbd>W</kbd>
+                </div>
+                <div data-key="69" class="single-key key">
+                    <kbd>E</kbd>
+                </div>
+                <div data-key="82" class="single-key key">
+                    <kbd>R</kbd>
+                </div>
+                <div data-key="84" class="single-key key">
+                    <kbd>T</kbd>
+                </div>
+                <div data-key="89" class="single-key key">
+                    <kbd>Y</kbd>
+                </div>
+                <div data-key="85" class="single-key key">
+                    <kbd>U</kbd>
+                </div>
+                <div data-key="73" class="single-key key">
+                    <kbd>I</kbd>
+                </div>
+                <div data-key="79" class="single-key key">
+                    <kbd>O</kbd>
+                </div>
+                <div data-key="80" class="single-key key">
+                    <kbd>P</kbd>
+                </div>
+                <div data-key="59" class="double-key key">
+                    <kbd>:</kbd>
+                    <kbd>;</kbd>
+                </div>
+            </div>
+            <div class="third-row">
+                <div data-key="65" class="single-key key">
+                    <kbd>A</kbd>
+                </div>
+                <div data-key="83" class="single-key key">
+                    <kbd>S</kbd>
+                </div>
+                <div data-key="68" class="single-key key">
+                    <kbd>D</kbd>
+                </div>
+                <div data-key="70" class="single-key key">
+                    <kbd>F</kbd>
+                </div>
+                <div data-key="71" class="single-key key">
+                    <kbd>G</kbd>
+                </div>
+                <div data-key="72" class="single-key key">
+                    <kbd>H</kbd>
+                </div>
+                <div data-key="74" class="single-key key">
+                    <kbd>J</kbd>
+                </div>
+                <div data-key="75" class="single-key key">
+                    <kbd>K</kbd>
+                </div>
+                <div data-key="76" class="single-key key">
+                    <kbd>L</kbd>
+                </div>
+                <div data-key="222" class="double-key key">
+                    <kbd>"</kbd>
+                    <kbd>'</kbd>
+                </div>
+                <div data-key="13" class="wide single-key key">
+                    <kbd>enter</kbd>
+                </div>
+            </div>
+            <div class="fourth-row">
+                <div data-key="16" class="wide single-key key">
+                    <kbd>shift</kbd>
+                </div>
+                <div data-key="90" class="single-key key">
+                    <kbd>Z</kbd>
+                </div>
+                <div data-key="88" class="single-key key">
+                    <kbd>X</kbd>
+                </div>
+                <div data-key="67" class="single-key key">
+                    <kbd>C</kbd>
+                </div>
+                <div data-key="86" class="single-key key">
+                    <kbd>V</kbd>
+                </div>
+                <div data-key="66" class="single-key key">
+                    <kbd>B</kbd>
+                </div>
+                <div data-key="78" class="single-key key">
+                    <kbd>N</kbd>
+                </div>
+                <div data-key="77" class="single-key key">
+                    <kbd>M</kbd>
+                </div>
+                <div data-key="188" class="single-key key">
+                    <kbd>,</kbd>
+                </div>
+                <div data-key="190" class="single-key key">
+                    <kbd>.</kbd>
+                </div>
+                <div data-key="191" class="single-key key">
+                    <kbd>?</kbd>
+                </div>
+            </div>
+            <div class="fifth-row">
+                <div data-key="32" class="wide space-bar single-key key"></div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <audio id="0" src="type.wav"></audio>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

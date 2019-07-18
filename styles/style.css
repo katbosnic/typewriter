@@ -165,4 +165,99 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 125%;
+}
+
+.old-school {
+  background: #a0855b;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 1.6rem;
+}
+
+.old-school .keyboard {
+  background: #42291c;
+}
+
+.old-school .key {
+  color: #e9fadd;
+}
+
+.typing {
+  -webkit-box-shadow: 0 -5px 3px #262626;
+          box-shadow: 0 -5px 3px #262626;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.keyboard {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.keyboard .first-row,
+.keyboard .second-row,
+.keyboard .third-row,
+.keyboard .fourth-row,
+.keyboard .fifth-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.keyboard .key {
+  padding: 10px 20px;
+  background: #3f5468;
+  border: 5px solid #a0855b;
+  border-radius: 50%;
+  margin: 5px;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.keyboard .double-key {
+  font-size: 1rem;
+  padding: 10px 25px;
+}
+
+.keyboard .double-key kbd {
+  display: block;
+}
+
+.keyboard .wide {
+  border-radius: 50px;
+}
+
+.keyboard .space-bar {
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.page {
+  height: calc(100vh - 419px);
+  max-width: 900px;
+  width: 80%;
+  background: #f9f6f2;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
